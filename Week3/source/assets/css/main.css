@@ -87,8 +87,7 @@ button {
 }
 
 .container__sider__description-button {
-    width: 58%;
-    height: 70%;
+    width: 50%;
     margin-right: 0px;
     margin-top: 20px;
 }
@@ -221,8 +220,7 @@ button {
 
 .sider2 {
     display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+    justify-content: flex-end;
 }
 
 .container__description__button-title {
@@ -234,8 +232,7 @@ button {
 }
 
 .container__description-but {
-    width: 80%;
-    height: auto;
+    width: 60%;
 }
 
 .container__description__button-detail {
