@@ -1,0 +1,32 @@
+:root {
+    /* dinh nghia lai gia tri thuong su dung */
+    --white-color: #fff;
+    --color: rgba(157,
+            164,
+            171, 0.3);
+    --line: #ccc;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid_full-width {
+    width: 100%;
+}
+
+.grid_row {
+    display: flex;
+    flex-wrap: wrap;
+}
