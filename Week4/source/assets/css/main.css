@@ -1,0 +1,48 @@
+body {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.description {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.sothunhat {
+    margin-bottom: 20px;
+}
+
+.pheptoan {
+    margin-bottom: 20px;
+}
+
+.sothuhai {
+    margin-bottom: 20px;
+}
+
+.button {
+    margin-bottom: 20px;
+}
+
+.ketqua {
+    margin-bottom: 20px;
+}
+
+.notification--title {
+    font-weight: bold;
+}
+
+.notification--content {
+    color: red;
+}

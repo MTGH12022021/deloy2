@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+    <style>
+        #containerexample {
+            background: #9c27b0;
+            padding: 20px;
+            color: white;
+            font-weight: bold;
+        }
+
+        #phantudiv {
+            background: #1d1e1f;
+            padding: 30px;
+        }
+
+        #containerexample p {
+            border: 1px dashed gray;
+            padding: 5px;
+            animation-name: keyframes1;
+            animation-duration: 2s;
+        }
+
+        #phantudiv>p.phantup {
+            color: yellow;
+        }
+
+        @keyframes keyframes1 {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+
+    <div id="containerexample">
+
+        <div id="phantudiv">
+            <p class="phantup">Nội dung ban đầu trong phần tử</p>
+        </div>
+        <br>
+        <button onclick="append_jquery()">append()</button>
+        <button onclick="prepend_jquery()">prepend()</button>
+        <button onclick="after_jquery()">after()</button>
+        <button onclick="before_jquery()">before()</button>
+    </div>
+
+    <script>
+        var phantuchon = $("#phantudiv");
+
+        function append_jquery() {
+            phantuchon.append("<p>Chèn thêm bằng append()</p>");
+        }
+
+        function prepend_jquery() {
+            phantuchon.prepend("<p>Chèn thêm bằng prepend()</p>");
+        }
+
+        function after_jquery() {
+            phantuchon.after("<p>Chèn thêm bằng after()</p>");
+        }
+
+        function before_jquery() {
+            phantuchon.before("<p>Chèn thêm bằng before()</p>");
+        }
+    </script>
+
+</html>
