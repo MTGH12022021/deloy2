@@ -34,13 +34,14 @@ function submit() {
     }
 
     so_thu_nhat = parseFloat(so_thu_nhat);
-    so_thu_nhat = parseFloat(so_thu_nhat);
+    so_thu_nhat = parseFloat(so_thu_hai);
 
     var result = 0;
 
     switch (phep_toan) {
         case "+":
             result = so_thu_nhat + so_thu_hai;
+            console.log(typeof (so_thu_hai));
             break;
 
         case "-":
