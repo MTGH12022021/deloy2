@@ -34,7 +34,7 @@ function submit() {
     }
 
     so_thu_nhat = parseFloat(so_thu_nhat);
-    so_thu_nhat = parseFloat(so_thu_hai);
+    so_thu_hai = parseFloat(so_thu_hai);
 
     var result = 0;
 
